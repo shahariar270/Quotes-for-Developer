@@ -1,0 +1,61 @@
+body{
+    background:skyblue;
+
+}
+
+header{
+    background: hsl(0, 1%, 30%);
+    width: 30%;
+    margin: auto auto;
+    height: 116px;
+    text-align: center;
+    border-radius: 20px 110px;
+  
+    
+}
+
+    p{
+    text-align: center;
+    margin-top: 27px;
+    
+    span{
+        
+    font-size: 36px;
+    font-family: cursive;  
+    color: #fff;
+    }
+}
+.section{
+    span{
+        font-size: 20px;
+        font-family: fantasy;
+        font-style: italic;
+    }
+}
+main{
+   position: relative;
+    #show_quate{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    text-align: center;
+   
+    }
+#btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+        padding: 10px;
+        border: none;
+        font-size: 15px;
+        font-family: cursive;
+        border-radius: 10px 20px 5px 15px;
+        
+    }
+    #btn:hover{
+        background: skyblue;
+        color: #999;
+        transition: .5s ease ;
+
+    }
+}
